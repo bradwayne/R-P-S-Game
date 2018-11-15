@@ -26,7 +26,7 @@ $(document).ready(function () {
             console.log(userGuess + ' ties ' + computerGuess);
             $('#computerGuess').text(computerGuess);
             $('#currentScore').text(currentScore = 'Draw');
-            $('#resultImg').append('<img id="rockTie" src="future-rock.png" width=236px, height=236px />');
+            $('#resultImg').append('<img id="rockTie" src="assets/images/future-rock.png" width=236px, height=236px />');
         }
         if (computerGuess === 'scissors') {
             console.log(userGuess + ' wins over ' + computerGuess);
@@ -35,7 +35,7 @@ $(document).ready(function () {
             $('#score').text(score);
             $('#computerGuess').text(computerGuess);
             $('#currentScore').text(currentScore = 'Winner');
-            $('#resultImg').append('<img id="rockWin" src="rockBeatScissor.png"  width=266px, height=266px />');
+            $('#resultImg').append('<img id="rockWin" src="assets/images/rockBeatScissor.png"  width=266px, height=266px />');
         }
 
         if (computerGuess === 'paper') {
@@ -45,7 +45,7 @@ $(document).ready(function () {
             $('#score').text(score);
             $('#computerGuess').text(computerGuess);
             $('#currentScore').text(currentScore = 'Loser');
-            $('#resultImg').append('<img id="rockLose" src="paperBeatRock.png" width=240px, height=240px />');
+            $('#resultImg').append('<img id="rockLose" src="assets/images/paperBeatRock.png" width=240px, height=240px />');
         }
         rock()
     };
@@ -61,7 +61,7 @@ $(document).ready(function () {
             console.log(userGuess + ' ties ' + computerGuess);
             $('#computerGuess').text(computerGuess);
             $('#currentScore').text(currentScore = 'Draw');
-            $('#resultImg').append('<img id="paperTie" src="future-paper.png" width=200px, height=236px />');
+            $('#resultImg').append('<img id="paperTie" src="assets/images/future-paper.png" width=200px, height=236px />');
 
         }
         if (computerGuess === 'rock') {
@@ -71,7 +71,7 @@ $(document).ready(function () {
             $('#score').text(score);
             $('#computerGuess').text(computerGuess);
             $('#currentScore').text(currentScore = 'Winner');
-            $('#resultImg').append('<img id="paperWin" src="paperBeatRock.png"  width=240px, height=240px />');
+            $('#resultImg').append('<img id="paperWin" src="assets/images/paperBeatRock.png"  width=240px, height=240px />');
 
         }
         if (computerGuess === 'scissors') {
@@ -81,7 +81,7 @@ $(document).ready(function () {
             $('#score').text(score);
             $('#computerGuess').text(computerGuess);
             $('#currentScore').text(currentScore = 'Loser');
-            $('#resultImg').append('<img id="paperLose" src="scissorsBeatPaper.png" width=330px, height=240px />');
+            $('#resultImg').append('<img id="paperLose" src="assets/images/scissorsBeatPaper.png" width=330px, height=240px />');
         }
         paper()
     };
@@ -97,7 +97,7 @@ $(document).ready(function () {
             console.log(userGuess + ' ties ' + computerGuess);
             $('#computerGuess').text(computerGuess);
             $('#currentScore').text(currentScore = 'Draw');
-            $('#resultImg').append('<img id="scissorsTie" src="future-scissors.png" width=200px, height=236px />');
+            $('#resultImg').append('<img id="scissorsTie" src="assets/images/future-scissors.png" width=200px, height=236px />');
 
         }
         if (computerGuess === 'paper') {
@@ -107,7 +107,7 @@ $(document).ready(function () {
             $('#score').text(score)
             $('#computerGuess').text(computerGuess);
             $('#currentScore').text(currentScore = 'Winner');
-            $('#resultImg').append('<img id="rockWin" src="scissorsBeatPaper.png"  width=330px, height=240px />');
+            $('#resultImg').append('<img id="rockWin" src="assets/images/scissorsBeatPaper.png"  width=330px, height=240px />');
         }
         if (computerGuess === 'rock') {
             console.log(userGuess + ' lose over ' + computerGuess);
@@ -116,7 +116,7 @@ $(document).ready(function () {
             $('#score').text(score);
             $('#computerGuess').text(computerGuess);
             $('#currentScore').text(currentScore = 'Loser');
-            $('#resultImg').append('<img id="rockLose" src="rockBeatScissor.png" width=266px, height=266px />');
+            $('#resultImg').append('<img id="rockLose" src="assets/images/rockBeatScissor.png" width=266px, height=266px />');
         }
         scissors()
     };

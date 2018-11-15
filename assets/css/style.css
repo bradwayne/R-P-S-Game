@@ -16,7 +16,7 @@ body {
 
 .background {
     margin-top: 25px;
-    background-image: url(skull-bground-2.jpg);
+    background-image: url(..//images/skull-bground-2.jpg);
     position: fixed;
     background-size: cover;
     background-repeat: no-repeat;

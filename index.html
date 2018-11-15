@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <title>RPS Game</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script src="https://code.jquery.com/jquery.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+        crossorigin="anonymous">
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css" type="text/css" />
+
+    <link href="https://fonts.googleapis.com/css?family=Black+Ops+One|Bungee+Inline|Nosifer|Megrim|Press+Start+2P" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="background"></div>
+    </div>
+
+    <div class="title-bar">
+        <div class="title">Rock Paper Scissors - <b>To The Death</b></div>
+    </div>
+
+    <div class="container">
+
+        <section class="scoreSection">
+            <p class="yourScore">You Selected:
+                <span id="userGuess"></span>
+            </p>
+
+            <p class="compScore">Computer Selected:
+                <span id="computerGuess"></span>
+            </p>
+
+            <p class="currentScore">Round Score:
+                <span id="currentScore"></span>
+            </p>
+
+            <p class="score">Total Score:
+                <span id="score"></span>
+            </p>
+        </section>
+
+        <section class="battleSection">
+            <h1 class="battleHeader">Select Your Weapon To Start The Battle!
+            </h1>
+
+            <div class="btn r">
+                <img id="rock" src="future-rock.png" width=125px, height=125px>
+            </div>
+
+            <div class="btn p">
+                <img id="paper" src="future-paper.png" width=125px, height=157px>
+            </div>
+
+            <div class="btn s">
+                <img id="scissors" src="future-scissors.png" width=117px, height=157px>
+            </div>
+        </section>
+
+    </div>
+
+    <div id="winnerImg">
+        <br>
+        <a>
+            <span id="resultImg"></span>
+        </a>
+    </div>
+
+
+
+    <script src="app.js"></script>
+    <!-- <script src="app-2.js"></script> -->
+
+
+</body>
+
+</html>
+
+
+<!-- <div class="conatiner">
+    <div class="row score-board">
+        <div id="scoreCard">
+            <div class="column">
+                <b>You Chose:
+                    <span id="userGuess"></span>
+                </b>
+            </div>
+
+            <div class="column">
+                <b>Computer Chose:
+                    <span id="computerGuess"></span>
+                </b>
+            </div>
+
+            <div class="column">
+                Current Score:
+                <span id="currentScore"></span>
+            </div>
+
+            <div class="column">
+                Score:
+                <span id="score"></span>
+            </div>
+        </div>
+    </div> -->
+
+
+
+<!-- <div class="row game-pieces">
+        <div id="battle-prompt">
+            <p>Select Your Weapon To Start The Battle!</p>
+    
+            <div class="btn r">
+                <img id="rock" src="future-rock.png" width=118px, height=118px>
+            </div>
+    
+            <div class="btn p">
+                <img id="paper" src="future-paper.png" width=118px, height=150px>
+            </div>
+    
+            <div class="btn s">
+                <img id="scissors" src="future-scissors.png" width=110px, height=150px>
+            </div>
+    
+        </div>
+    </div>
+    
+    <div id="winnerImg">
+        <a>
+            <span id="resultImg"></span>
+        </a>
+    </div>
+    </div>
+    </div>
+    </div> -->

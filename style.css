@@ -1,0 +1,172 @@
+body {
+    margin: auto;
+    background-color: #000000;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    clear: both;
+}
+
+.background {
+    margin-top: 25px;
+    background-image: url(skull-bground-2.jpg);
+    position: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    z-index: -50;
+    background-position: center;
+    opacity: .5;
+    z-index: -50;
+}
+
+h1 {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+p {
+    padding-top: 45px;
+}
+
+p:first-child {
+    padding-top: 15px;
+}
+
+p:last-child {
+    padding-top: 35px;
+}
+
+b {
+    color: #b30000;
+    font-family: 'Nosifer', cursive;
+    padding-top: -10px;
+}
+
+/* .background {
+    background-color: blue;
+    width: auto;
+    height: 600px;
+} */
+
+
+.title-bar {
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    z-index: 50;
+    box-shadow: 0px 0px 15px red;
+}
+
+.title {
+    font-family: 'Bungee Inline', cursive;
+    text-align: center;
+    color: #ccc;
+    font-size: 35px;
+}
+
+#scoreCard {
+    /* margin-top: 100px; */
+    /* text-align: center; */
+}
+
+#winnerImg {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.r,
+.p {
+    margin-right: 25px;
+}
+
+.btn {
+    margin-top: 35px;
+}
+
+.scoreSection {
+    margin-top: 100px;
+    text-align: left;
+    float: left;
+    width: 335px;
+    /* max-width: 200px; */
+    /* padding-right: 10px; */
+    /* padding-left: 10px; */
+    border-right: 2px groove #e6b800;
+    margin-right: 15px;
+}
+
+.scoreSection:last-child {
+    border-right: 0 none;
+}
+
+.battleSection {
+    margin-top: 100px;
+    text-align: center;
+    /* width: 650px; */
+}
+
+.yourScore,
+.compScore,
+.currentScore {
+    font-family: 'Bungee Inline', cursive;
+    font-size: 15px;
+    /* font-weight: bold; */
+    text-transform: uppercase;
+    text-shadow: 0 0 5px #000000;
+    color: #ccc;
+}
+
+.score {
+    font-family: 'Bungee Inline', cursive;
+    font-size: 25px;
+    /* font-weight: bold; */
+    text-transform: uppercase;
+    text-shadow: 0 0 5px #000000;
+    color: #ccc;
+}
+
+.battleHeader {
+    font-size: 25px;
+    /* font-family: 'Press Start 2P', cursive; */
+    /* font-family: 'Black Ops One', cursive; */
+    font-family: 'Bungee Inline', cursive;
+    color: #ccc;
+    text-shadow: 1px 1px 5px #000000;
+    /* font-family: 'Megrim', cursive; */
+}
+
+#userGuess,
+#computerGuess,
+#currentScore,
+#score {
+    padding-left: 10px;
+    text-shadow: 0 0 5px #000000;
+    color: #b38f00;
+}
+
+#winnerImg {
+    border-top: 2px groove #e6b800;
+    padding-bottom: 25px;
+}
+
+#resultImg {
+    padding-top: 25px;
+}
+
+/*
+font-family: 'Press Start 2P', cursive;
+font-family: 'Black Ops One', cursive;
+font-family: 'Bungee Inline', cursive;
+font-family: 'Megrim', cursive;
+*/

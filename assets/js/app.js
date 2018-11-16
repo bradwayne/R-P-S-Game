@@ -1,3 +1,42 @@
+// var backgroundMusic = new Audio("assets/audio/background_dark_evolving_nightmare_01.mp3");
+
+var backgroundMusic = new Audio("assets/audio/background_enemy_03.mp3");
+
+var attachSound = new Audio("assets/audio/bomb-sound-effect.mp3");
+
+
+function pauseAudio() {
+    if (document.getElementById('navAudio').classList.contains('play')) {
+        document.getElementById('navAudio').classList.add('mute');
+        document.getElementById('navAudio').classList.remove('play');
+        document.getElementById('audio_on').style.display = 'none';
+        document.getElementById('audio_mute').style.display = 'inline';
+        backgroundMusic.pause();
+        backgroundMusic.currentTime = 0;
+    } else if (document.getElementById('navAudio').classList.contains('mute')) {
+        document.getElementById('navAudio').classList.add('play');
+        document.getElementById('navAudio').classList.remove('mute');
+        document.getElementById('audio_on').style.display = 'inline';
+        document.getElementById('audio_mute').style.display = 'none';
+        backgroundMusic.play();
+    }
+}
+
+// backgroundMusic.addEventListener('ended', function () {
+//     this.currentTime = 0;
+//     this.play();
+// }, false);
+
+// backgroundMusic.play();
+
+$("#navAudio").click(pauseAudio);
+
+// attachSound.play();
+
+
+
+
+
 $(document).ready(function () {
 
     var score = 0;
@@ -14,7 +53,7 @@ $(document).ready(function () {
 
     function computerChoice() {
         return computerChoices[Math.floor(Math.random() * computerChoices.length)];
-    }
+    }    
 
     document.getElementById('rock').onclick = function () {
         userGuess = 'rock'
@@ -47,6 +86,7 @@ $(document).ready(function () {
             $('#currentScore').text(currentScore = 'Loser');
             $('#resultImg').append('<img id="rockLose" src="assets/images/paperBeatRock.png" width=240px, height=240px />');
         }
+        attachSound.play();
         rock()
     };
 
@@ -83,6 +123,7 @@ $(document).ready(function () {
             $('#currentScore').text(currentScore = 'Loser');
             $('#resultImg').append('<img id="paperLose" src="assets/images/scissorsBeatPaper.png" width=330px, height=240px />');
         }
+        attachSound.play();
         paper()
     };
 
@@ -118,6 +159,7 @@ $(document).ready(function () {
             $('#currentScore').text(currentScore = 'Loser');
             $('#resultImg').append('<img id="rockLose" src="assets/images/rockBeatScissor.png" width=266px, height=266px />');
         }
+        attachSound.play();
         scissors()
     };
 

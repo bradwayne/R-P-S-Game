@@ -14,6 +14,30 @@ body {
     clear: both;
 }
 
+.navbar-left {
+    margin-top: 15px;
+}
+
+.audioBtn {
+    font-size: 20px;
+    float: left;
+    position: fixed;
+}
+
+a#navAudio {
+    color: #ccc;
+    text-decoration: none;
+    padding: 15px;
+}
+
+#audio_on {
+    display: inline;
+}
+
+#audio_mute {
+    display: none;
+}
+
 .background {
     margin-top: 25px;
     background-image: url(..//images/skull-bground-2.jpg);

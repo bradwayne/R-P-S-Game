@@ -13,11 +13,12 @@ Celebrate your victory or bloody defeat in this semi-graphic version of the trad
 * **Computer Selected** - This will display the computers *random* selection on this particular round.
 
 * **Round Score** - This will display if you are a *Winner/Loser or Draw* on this particular round.
-    * **_Total Score_** - This will be your total accumulated score since you launched or refreshed this game.
-        * **_Draw_** will result in a score of *'0'* or if it is the opening round, it will remain blank.
-        * **_Winner_** and your *Total Score* will increase by *'1'*. If you are below a *Total Score* of *'0'* you will decrease your negative value, i.e. score was *'-5'*, now score is *'-4'*.
-        * **_Loser_** and your *Total Score* will decrease by *1*. If you fall below a *Total Score* of *'0'* you will fall into the negatives, i.e. score will be *'-1'*.
 
+* **_Total Score_** - This will be your total accumulated score since you launched or refreshed this game.
+    * **_Draw_** will result in a score of *'0'* or if it is the opening round, it will remain blank.
+    * **_Winner_** and your *Total Score* will increase by *'1'*. If you are below a *Total Score* of *'0'* you will decrease your negative value, i.e. score was *'-5'*, now score is *'-4'*.
+    * **_Loser_** and your *Total Score* will decrease by *1*. If you fall below a *Total Score* of *'0'* you will fall into the negatives, i.e. score will be *'-1'*.
+<br>
 
 **Weapon Choice** - This right side column will provide you and the computer with *'3'* Weapon choices.
 * **Rock**
@@ -32,7 +33,7 @@ Celebrate your victory or bloody defeat in this semi-graphic version of the trad
     * Computer chose **Scissors** - this will result in a *Draw*.
     * Computer chose **Paper** - this will result in a *Winner*.
     * Computer chose **Rock** - this will result in a *Loser*.
-
+<br>
 
 **Round Result** - This bottom row/column will provide you with your *Round* graphic image.
 * **Rock** image and meaning

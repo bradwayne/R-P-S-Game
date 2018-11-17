@@ -6,7 +6,7 @@ Celebrate your victory or bloody defeat in this semi-graphic version of the trad
 
 * ![alt text](/assets/home_screen.png)
 
-**Scorecard** - This left side column will keep track of your scoring.
+**SCORECARD** - This left side column will keep track of your scoring.
     
 * **You Selected** - This will display your selection on this particular round.
 
@@ -20,7 +20,7 @@ Celebrate your victory or bloody defeat in this semi-graphic version of the trad
     * **_Loser_** and your *Total Score* will decrease by *1*. If you fall below a *Total Score* of *'0'* you will fall into the negatives, i.e. score will be *'-1'*.
 <br>
 
-**Weapon Choice** - This right side column will provide you and the computer with *'3'* Weapon choices.
+**WEAPON CHOICE** - This right side column will provide you and the computer with *'3'* Weapon choices.
 * **Rock**
     * Computer chose **Rock** - this will result in a *Draw*.
     * Computer chose **Scissors** - this will result in a *Winner*.
@@ -35,7 +35,7 @@ Celebrate your victory or bloody defeat in this semi-graphic version of the trad
     * Computer chose **Rock** - this will result in a *Loser*.
 <br>
 
-**Round Result** - This bottom row/column will provide you with your *Round* graphic image.
+**ROUND RESULT** - This bottom row/column will provide you with your *Round* graphic image.
 * **Rock** image and meaning
     * **Rock** stand alone image will mean the round was a *Draw*.
     * **Rock** crushing **Scissors** with *Gold Rays of Light* will mean the round was a *Winner*.

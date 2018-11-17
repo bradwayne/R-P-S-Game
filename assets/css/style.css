@@ -70,7 +70,7 @@ p:last-child {
 }
 
 b {
-    color: #b30000;
+    color: #990000;
     font-family: 'Nosifer', cursive;
     padding-top: -10px;
 }
@@ -89,7 +89,7 @@ b {
     padding-bottom: 10px;
     padding-top: 10px;
     z-index: 50;
-    box-shadow: 0px 0px 15px red;
+    box-shadow: 0px 0px 15px #990000;
 }
 
 .title {
@@ -126,7 +126,7 @@ b {
     /* max-width: 200px; */
     /* padding-right: 10px; */
     /* padding-left: 10px; */
-    border-right: 2px groove #e6b800;
+    border-right: 2px groove #997a00;
     margin-right: 15px;
 }
 
@@ -180,7 +180,7 @@ b {
 }
 
 #winnerImg {
-    border-top: 2px groove #e6b800;
+    border-top: 2px groove #997a00;
     padding-bottom: 25px;
 }
 

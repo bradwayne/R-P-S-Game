@@ -32,8 +32,6 @@ $("#navAudio").click(pauseAudio);
 
 
 
-
-
 $(document).ready(function () {
 
     var score = 0;
@@ -62,7 +60,7 @@ $(document).ready(function () {
             console.log(userGuess + ' ties ' + computerGuess);
             $('#computerGuess').text(computerGuess);
             $('#currentScore').text(currentScore = 'Draw');
-            $('#resultImg').append('<img id="rockTie" src="assets/images/future-rock.png" width=236px, height=236px />');
+            $('#resultImg').append('<img id="rockTie" src="assets/images/choice-rock.png" width=236px, height=236px />');
         }
         if (computerGuess === 'scissors') {
             console.log(userGuess + ' wins over ' + computerGuess);
@@ -83,7 +81,6 @@ $(document).ready(function () {
             $('#currentScore').text(currentScore = 'Loser');
             $('#resultImg').append('<img id="rockLose" src="assets/images/P-Beat-R-blood.png" width=700px, height=266px />');
         }
-        backgroundMusic.play();
         attachSound.play();
         rock()
     };
@@ -99,7 +96,7 @@ $(document).ready(function () {
             console.log(userGuess + ' ties ' + computerGuess);
             $('#computerGuess').text(computerGuess);
             $('#currentScore').text(currentScore = 'Draw');
-            $('#resultImg').append('<img id="paperTie" src="assets/images/future-paper.png" width=180px, height=236px />');
+            $('#resultImg').append('<img id="paperTie" src="assets/images/choice-paper.png" width=180px, height=236px />');
 
         }
         if (computerGuess === 'rock') {
@@ -121,7 +118,6 @@ $(document).ready(function () {
             $('#currentScore').text(currentScore = 'Loser');
             $('#resultImg').append('<img id="paperLose" src="assets/images/S-Beat-P-blood.png" width=700px, height=266px />');
         }
-        backgroundMusic.play();
         attachSound.play();
         paper()
     };
@@ -137,7 +133,7 @@ $(document).ready(function () {
             console.log(userGuess + ' ties ' + computerGuess);
             $('#computerGuess').text(computerGuess);
             $('#currentScore').text(currentScore = 'Draw');
-            $('#resultImg').append('<img id="scissorsTie" src="assets/images/future-scissors.png" width=180px, height=236px />');
+            $('#resultImg').append('<img id="scissorsTie" src="assets/images/choice-scissors.png" width=180px, height=236px />');
 
         }
         if (computerGuess === 'paper') {
@@ -158,7 +154,6 @@ $(document).ready(function () {
             $('#currentScore').text(currentScore = 'Loser');
             $('#resultImg').append('<img id="rockLose" src="assets/images/R-Beat-S-blood.png" width=700px, height=266px />');
         }
-        backgroundMusic.play();
         attachSound.play();
         scissors()
     };

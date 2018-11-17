@@ -1,9 +1,6 @@
-// var backgroundMusic = new Audio("assets/audio/background_dark_evolving_nightmare_01.mp3");
-
 var backgroundMusic = new Audio("assets/audio/background_enemy_03.mp3");
 
 var attachSound = new Audio("assets/audio/bomb-sound-effect.mp3");
-
 
 function pauseAudio() {
     if (document.getElementById('navAudio').classList.contains('play')) {
@@ -27,28 +24,22 @@ backgroundMusic.addEventListener('ended', function () {
     this.play();
 }, false);
 
-
 $("#navAudio").click(pauseAudio);
-
-
 
 $(document).ready(function () {
 
     var score = 0;
     var currentScore;
-
     var rock;
     var paper;
     var scissors;
-
     var userGuess;
     var computerChoices = ['rock', 'paper', 'scissors'];
     var computerGuess;
 
-
     function computerChoice() {
         return computerChoices[Math.floor(Math.random() * computerChoices.length)];
-    }    
+    }
 
     document.getElementById('rock').onclick = function () {
         userGuess = 'rock'
@@ -84,7 +75,6 @@ $(document).ready(function () {
         attachSound.play();
         rock()
     };
-
 
     document.getElementById('paper').onclick = function () {
         userGuess = 'paper'
@@ -122,13 +112,12 @@ $(document).ready(function () {
         paper()
     };
 
-
     document.getElementById('scissors').onclick = function () {
         userGuess = 'scissors'
         computerGuess = computerChoice();
 
         $("#resultImg").empty();
-        
+
         if (computerGuess === 'scissors') {
             console.log(userGuess + ' ties ' + computerGuess);
             $('#computerGuess').text(computerGuess);
@@ -157,7 +146,6 @@ $(document).ready(function () {
         attachSound.play();
         scissors()
     };
-
 
     function rock() {
         document.getElementById('userGuess').innerHTML = 'rock'

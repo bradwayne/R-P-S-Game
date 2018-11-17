@@ -6,7 +6,7 @@ Celebrate your victory or bloody defeat in this semi-graphic version of the trad
 
 **Scorecard** - This left side column will keep track of your scoring.
 
-* ![alt text](/assets/screen_shots/home_screen.png)
+* ![alt text](/home_screen.png)
     
 * **You Selected** - This will display your selection on this particular round.
 

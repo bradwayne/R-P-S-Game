@@ -4,6 +4,8 @@ Celebrate your victory or bloody defeat in this semi-graphic version of the trad
 
 ## Home Screen
 
+(/assets/screen_shots/home_screen.png)
+
 **Scorecard** - This left side column will keep track of your scoring.
     
 * **You Selected** - This will display your selection on this particular round.

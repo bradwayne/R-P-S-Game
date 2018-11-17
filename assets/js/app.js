@@ -69,7 +69,7 @@ $(document).ready(function () {
             $('#score').text(score);
             $('#computerGuess').text(computerGuess);
             $('#currentScore').text(currentScore = 'Winner');
-            $('#resultImg').append('<img id="rockWin" src="assets/images/P-Beat-R-rays-2.png"  width=700px, height=266px />');
+            $('#resultImg').append('<img id="rockWin" src="assets/images/R-Beat-S-victory.png"  width=700px, height=266px />');
         }
 
         if (computerGuess === 'paper') {
@@ -106,7 +106,7 @@ $(document).ready(function () {
             $('#score').text(score);
             $('#computerGuess').text(computerGuess);
             $('#currentScore').text(currentScore = 'Winner');
-            $('#resultImg').append('<img id="paperWin" src="assets/images/P-Beat-R-rays-2.png"  width=700px, height=266px />');
+            $('#resultImg').append('<img id="paperWin" src="assets/images/P-Beat-R-victory.png"  width=700px, height=266px />');
 
         }
         if (computerGuess === 'scissors') {
@@ -143,7 +143,7 @@ $(document).ready(function () {
             $('#score').text(score)
             $('#computerGuess').text(computerGuess);
             $('#currentScore').text(currentScore = 'Winner');
-            $('#resultImg').append('<img id="rockWin" src="assets/images/S-Beat-P-rays-2.png"  width=700px, height=266px />');
+            $('#resultImg').append('<img id="rockWin" src="assets/images/S-Beat-P-victory.png"  width=700px, height=266px />');
         }
         if (computerGuess === 'rock') {
             console.log(userGuess + ' lose over ' + computerGuess);

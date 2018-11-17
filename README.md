@@ -4,7 +4,7 @@ Celebrate your victory or bloody defeat in this semi-graphic version of the trad
 
 ## Home Screen
 
-* ![alt text](/assets/home_screen.png)
+* ![alt text](/assets/screen_shots/home_screen.png)
 
 **SCORECARD** - This left side column will keep track of your scoring.
     

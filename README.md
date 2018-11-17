@@ -1,7 +1,5 @@
 # [Rock Paper Scissors - To The Death](https://bradwayne.github.io/R-P-S-Game)
 
-[Rock Paper Scissors - To The Death](https://bradwayne.github.io/R-P-S-Game)
-
 Celebrate your victory or bloody defeat in this semi-graphic version of the traditional Rock Paper Scissors Game.
 
 ## Home Screen
@@ -16,18 +14,19 @@ Celebrate your victory or bloody defeat in this semi-graphic version of the trad
     * **_Total Score_** - This will be your total accumulated score since you launched or refreshed this game.
         * **_Draw_** will result in a score of *'0'* or if it is the opening round, it will remain blank.
         * **_Winner_** and your *Total Score* will increase by *'1'*. If you are below a *Total Score* of *'0'* you will decrease your negative value, ie score was *'-5'*, now score is *'-4'*.
-        * **_Loser_** and your *Total Score* will decrease by *1*. If you fall below a *Total Score* of *'0'* you will fall into the negatives, ie *'-1'*.
+        * **_Loser_** and your *Total Score* will decrease by *1*. If you fall below a *Total Score* of *'0'* you will 
+        fall into the negatives, ie *'-1'*.
 
 **Weapon Choice** - This right side column will provide you and the computer with *'3'* Weapon choices.
-* **Rock** (your choice)
+* **Rock**
     * Computer chose **Rock** - this will result in a *Draw*.
     * Computer chose **Scissors** - this will result in a *Winner*.
     * Computer chose **Paper** - this will result in a *Loser*.
-* **Paper** (your choice)
+* **Paper**
     * Computer chose **Paper** - this will result in a *Draw*.
     * Computer chose **Rock** - this will result in a *Winner*.
     * Computer chose **Scissors** - this will result in a *Loser*.
-* **Scissors** (your choice)
+* **Scissors**
     * Computer chose **Scissors** - this will result in a *Draw*.
     * Computer chose **Paper** - this will result in a *Winner*.
     * Computer chose **Rock** - this will result in a *Loser*.
@@ -37,12 +36,10 @@ Celebrate your victory or bloody defeat in this semi-graphic version of the trad
     * **Rock** stand alone image will mean the round was a *Draw*.
     * **Rock** crushing **Scissors** with *Gold Rays of Light* will mean the round was a *Winner*.
     * **Rock** wrapped around **Paper** with *Blood Splatter* will mean the round was a *Loser*.
-
 * **Paper** image and meaning
     * **Paper** stand alone image will mean the round was a *Draw*.
     * **Paper** wrapped around **Rock** with *Gold Rays of Light* will mean the round was a *Winner*.
     * **Paper** cut by **Scissors** with *Blood Splatter* will mean the round was a *Loser*.
-
 * **Scissors** image and meaning
     * **Scissors** stand alone image will mean the round was a *Draw*.
     * **Scissors** cutting **Paper** with *Gold Rays of Light* will mean the round was a *Winner*.

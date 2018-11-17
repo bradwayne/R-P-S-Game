@@ -75,13 +75,6 @@ b {
     padding-top: -10px;
 }
 
-/* .background {
-    background-color: blue;
-    width: auto;
-    height: 600px;
-} */
-
-
 .title-bar {
     background-color: black;
     position: fixed;
@@ -97,11 +90,6 @@ b {
     text-align: center;
     color: #ccc;
     font-size: 35px;
-}
-
-#scoreCard {
-    /* margin-top: 100px; */
-    /* text-align: center; */
 }
 
 #winnerImg {
@@ -123,9 +111,6 @@ b {
     text-align: left;
     float: left;
     width: 335px;
-    /* max-width: 200px; */
-    /* padding-right: 10px; */
-    /* padding-left: 10px; */
     border-right: 2px groove #997a00;
     margin-right: 15px;
 }
@@ -137,7 +122,6 @@ b {
 .battleSection {
     margin-top: 100px;
     text-align: center;
-    /* width: 650px; */
 }
 
 .yourScore,
@@ -145,7 +129,6 @@ b {
 .currentScore {
     font-family: 'Bungee Inline', cursive;
     font-size: 15px;
-    /* font-weight: bold; */
     text-transform: uppercase;
     text-shadow: 0 0 5px #000000;
     color: #ccc;
@@ -154,7 +137,6 @@ b {
 .score {
     font-family: 'Bungee Inline', cursive;
     font-size: 25px;
-    /* font-weight: bold; */
     text-transform: uppercase;
     text-shadow: 0 0 5px #000000;
     color: #ccc;
@@ -162,12 +144,10 @@ b {
 
 .battleHeader {
     font-size: 25px;
-    /* font-family: 'Press Start 2P', cursive; */
-    /* font-family: 'Black Ops One', cursive; */
+
     font-family: 'Bungee Inline', cursive;
     color: #ccc;
     text-shadow: 1px 1px 5px #000000;
-    /* font-family: 'Megrim', cursive; */
 }
 
 #userGuess,
@@ -187,10 +167,3 @@ b {
 #resultImg {
     padding-top: 25px;
 }
-
-/*
-font-family: 'Press Start 2P', cursive;
-font-family: 'Black Ops One', cursive;
-font-family: 'Bungee Inline', cursive;
-font-family: 'Megrim', cursive;
-*/

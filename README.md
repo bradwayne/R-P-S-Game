@@ -20,7 +20,7 @@ Celebrate your victory or bloody defeat in this semi-graphic version of the trad
     * **_Loser_** and your *Total Score* will decrease by *1*. If you are at or below a *Total Score* of *'0'* you will fall into the negatives, i.e. score was *'-5'*, now score is *'-6'*.
 <br>
 
-**WEAPON CHOICE** - Right side column will provide you with *'3'* weapon choices. *Click One* to start a *New Game* or *Play New Round*
+**WEAPON CHOICE** - Right side column provides you with *'3'* weapon choices. *Click One* to start a *New Game* or *New Round*
 * **Rock**
     * Computer chose **Rock** - this will result in a *Draw*.
     * Computer chose **Scissors** - this will result in a *Winner*.
@@ -35,7 +35,7 @@ Celebrate your victory or bloody defeat in this semi-graphic version of the trad
     * Computer chose **Rock** - this will result in a *Loser*.
 <br>
 
-**ROUND RESULT** - Bottom row/column will provide you with your *Round* graphic image.
+**ROUND RESULT** - Bottom row/column provides you with your *Round* graphic image.
 * **Rock** image and meaning
     * **Rock Stand Alone** image will mean the round was a *Draw*.
     * **Rock Crushing Scissors** with *Gold Rays of Light* will mean the round was a *Winner*.

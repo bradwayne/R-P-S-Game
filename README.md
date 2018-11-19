@@ -6,7 +6,7 @@ Celebrate your victory or bloody defeat in this semi-graphic version of the trad
 
 * ![alt text](/assets/screenshots/home_screen.png)
 
-**SCORECARD** - This left side column will keep track of your scoring.
+**SCORECARD** - Left side column will keep track of your scoring.
     
 * **You Selected** - This will display your selection on this particular round.
 
@@ -20,7 +20,7 @@ Celebrate your victory or bloody defeat in this semi-graphic version of the trad
     * **_Loser_** and your *Total Score* will decrease by *1*. If you are at or below a *Total Score* of *'0'* you will fall into the negatives, i.e. score was *'-5'*, now score is *'-6'*.
 <br>
 
-**WEAPON CHOICE** - This right side column will provide you with *'3'* Weapon choices. *Click One* to start a *New Game* or *Play New Round*
+**WEAPON CHOICE** - Right side column will provide you with *'3'* weapon choices. *Click One* to start a *New Game* or *Play New Round*
 * **Rock**
     * Computer chose **Rock** - this will result in a *Draw*.
     * Computer chose **Scissors** - this will result in a *Winner*.
@@ -35,17 +35,17 @@ Celebrate your victory or bloody defeat in this semi-graphic version of the trad
     * Computer chose **Rock** - this will result in a *Loser*.
 <br>
 
-**ROUND RESULT** - This bottom row/column will provide you with your *Round* graphic image.
+**ROUND RESULT** - Bottom row/column will provide you with your *Round* graphic image.
 * **Rock** image and meaning
     * **Rock Stand Alone** image will mean the round was a *Draw*.
     * **Rock Crushing Scissors** with *Gold Rays of Light* will mean the round was a *Winner*.
     * **Rock Wrapped Around Paper** with *Blood Splatter* will mean the round was a *Loser*.
 * **Paper** image and meaning
-    * **Pape Stand Alone** image will mean the round was a *Draw*.
-    * **Pape Wrapped Around Rock** with *Gold Rays of Light* will mean the round was a *Winner*.
-    * **Pape Cut By Scissors** with *Blood Splatter* will mean the round was a *Loser*.
+    * **Paper Stand Alone** image will mean the round was a *Draw*.
+    * **Paper Wrapped Around Rock** with *Gold Rays of Light* will mean the round was a *Winner*.
+    * **Paper Cut By Scissors** with *Blood Splatter* will mean the round was a *Loser*.
 * **Scissors** image and meaning
-    * **Scissor Stand Alone image will mean the round was a *Draw*.
+    * **Scissor Stand Alone** image will mean the round was a *Draw*.
     * **Scissor Cutting Paper** with *Gold Rays of Light* will mean the round was a *Winner*.
     * **Scissor Crushed By Rock** with *Blood Splatter* will mean the round was a *Loser*.
 

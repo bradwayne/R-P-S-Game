@@ -6,11 +6,12 @@ Celebrate your victory or bloody defeat in this semi-graphic version of the trad
 
 * ![alt text](/assets/screenshots/home_screen.png)
 
-**Audio** - Theatrical audio options.
+**AUDIO** - Theatrical audio options.
 * **Background Music** - Click the audio button twice to start theatrcal background music.
     * Click it again to turn off or back on.
 * **Sound Affects** - Round result will automatically play thunderous result sound.
     * This can not be turned off. Lower volume or mute your audio on your computed to disable it.
+<br>
 
 **SCORECARD** - Left side column will keep track of your scoring.
     

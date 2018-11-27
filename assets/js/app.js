@@ -1,5 +1,4 @@
 var backgroundMusic = new Audio("assets/audio/background_enemy_03.mp3");
-
 var attachSound = new Audio("assets/audio/bomb-sound-effect.mp3");
 
 function pauseAudio() {
@@ -23,7 +22,7 @@ backgroundMusic.addEventListener('ended', function () {
     this.currentTime = 0;
     this.play();
 }, false);
-
+backgroundMusic.play();
 $("#navAudio").click(pauseAudio);
 
 $(document).ready(function () {

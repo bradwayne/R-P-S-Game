@@ -7,37 +7,6 @@ body {
     box-sizing: border-box;
 }
 
-.container {
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-    clear: both;
-}
-
-.navbar-left {
-    margin-top: 15px;
-}
-
-.audioBtn {
-    font-size: 20px;
-    float: left;
-    position: fixed;
-}
-
-a#navAudio {
-    color: #ccc;
-    text-decoration: none;
-    padding: 15px;
-}
-
-#audio_on {
-    display: inline;
-}
-
-#audio_mute {
-    display: none;
-}
-
 .background {
     margin-top: 25px;
     background-image: url(..//images/skull-bground.jpg);
@@ -50,6 +19,50 @@ a#navAudio {
     background-position: center;
     opacity: .5;
     z-index: -50;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    clear: both;
+}
+
+.title-bar {
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    z-index: 50;
+    box-shadow: 0px 0px 15px #990000;
+}
+
+.title {
+    font-family: 'Bungee Inline', cursive;
+    text-align: center;
+    color: #ccc;
+    font-size: 35px;
+}
+
+.navbar-left {
+    margin-top: 15px;
+}
+
+a#navAudio {
+    font-family: 'Bungee Inline', cursive;
+    font-size: 15px;
+    color: #ccc;
+    text-decoration: none;
+    padding: 15px 15px 15px 15px;
+}
+
+#audio_on {
+    display: inline;
+}
+
+#audio_mute {
+    display: none;
 }
 
 h1 {
@@ -75,23 +88,6 @@ b {
     padding-top: -10px;
 }
 
-.title-bar {
-    background-color: black;
-    position: fixed;
-    width: 100%;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    z-index: 50;
-    box-shadow: 0px 0px 15px #990000;
-}
-
-.title {
-    font-family: 'Bungee Inline', cursive;
-    text-align: center;
-    color: #ccc;
-    font-size: 35px;
-}
-
 #winnerImg {
     margin-top: 25px;
     text-align: center;
@@ -112,6 +108,7 @@ b {
     float: left;
     width: 335px;
     border-right: 2px groove #997a00;
+    margin-left: 25px;
     margin-right: 15px;
 }
 
@@ -120,7 +117,8 @@ b {
 }
 
 .battleSection {
-    margin-top: 100px;
+    margin-top: 120px;
+    margin-right: 25px;
     text-align: center;
 }
 
@@ -144,7 +142,6 @@ b {
 
 .battleHeader {
     font-size: 25px;
-
     font-family: 'Bungee Inline', cursive;
     color: #ccc;
     text-shadow: 1px 1px 5px #000000;
@@ -166,4 +163,359 @@ b {
 
 #resultImg {
     padding-top: 25px;
+}
+
+/*//////////////////// mobile responsive ////////////////////*/
+
+@media screen and (max-width: 1080px) {
+
+    .title {
+        font-size: 30px;
+    }
+
+    .navbar-left {
+        margin-top: 12px;
+    }
+
+    .battleHeader {
+        font-size: 20px;
+    }
+
+    #rock {
+        width: 125px;
+        height: 125px;
+    }
+
+    #paper {
+        width: 95px;
+        height: 127px;
+    }
+
+    #scissors {
+        width: 87px;
+        height: 127px;
+    }
+
+    p {
+        padding-top: 30px;
+    }
+
+    p:first-child {
+        padding-top: 15px;
+    }
+
+    p:last-child {
+        padding-top: 25px;
+    }
+}
+
+@media screen and (max-width: 927px) {
+    .title {
+        font-size: 25px;
+    }
+
+    a#navAudio {
+        font-size: 12px;
+    }
+
+    .battleHeader {
+        font-size: 15px;
+    }
+
+    #rock {
+        width: 115px;
+        height: 115px;
+    }
+
+    #paper {
+        width: 85px;
+        height: 117px;
+    }
+
+    #scissors {
+        width: 77px;
+        height: 117px;
+    }
+
+    p {
+        padding-top: 25px;
+    }
+
+    p:first-child {
+        padding-top: 15px;
+    }
+
+    p:last-child {
+        padding-top: 20px;
+    }
+
+    .r,
+    .p {
+        margin-right: 15px;
+    }
+
+    .navbar-left {
+        margin-top: 10px;
+    }
+
+    .scoreSection {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 830px) {
+
+    p {
+        padding-top: 15px;
+    }
+
+    p:first-child {
+        padding-top: 5px;
+    }
+
+    p:last-child {
+        padding-top: 15px;
+    }
+
+    .scoreSection {
+        margin-top: 70px;
+    }
+
+    .battleSection {
+        margin-top: 90px;
+    }
+
+    #winnerImg {
+        margin-top: 10px;
+    }
+
+    .battleHeader {
+        font-size: 12px;
+    }
+
+    #rock {
+        width: 100px;
+        height: 100px;
+    }
+
+    #paper {
+        width: 70px;
+        height: 102px;
+    }
+
+    #scissors {
+        width: 62px;
+        height: 102px;
+    }
+
+    .r,
+    .p {
+        margin-right: 10px;
+    }
+
+    .yourScore,
+    .compScore,
+    .currentScore {
+        font-size: 12px;
+    }
+
+    .score {
+        font-size: 20px;
+    }
+
+    .btn {
+        margin-top: 10px;
+    }
+
+    .scoreSection {
+        width: 275px;
+    }
+}
+
+@media screen and (max-width: 775px) {
+    .title {
+        font-size: 20px;
+        padding-top: 5px;
+    }
+
+    a#navAudio {
+        font-size: 10px;
+    }
+
+    .navbar-left {
+        margin-top: 8px;
+    }
+
+    .title-bar {
+        padding-bottom: 8px;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .title {
+        font-size: 20px;
+        padding-top: 5px;
+    }
+
+    a#navAudio {
+        font-size: 10px;
+    }
+
+    .navbar-left {
+        margin-top: 0px;
+    }
+
+    .title-bar {
+        padding-bottom: 0px;
+    }
+
+    #rockTie,
+    #rockWin,
+    #rockLose {
+        width: 300px;
+        height: 133px;
+    }
+
+    .battleSection {
+        margin-top: 80px;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .title {
+        font-size: 18px;
+        padding-top: 5px;
+    }
+
+    a#navAudio {
+        font-size: 10px;
+    }
+
+    .navbar-left {
+        margin-top: -5px;
+    }
+
+    p {
+        padding-top: 10px;
+    }
+
+    p:first-child {
+        padding-top: 5px;
+    }
+
+    p:last-child {
+        padding-top: 12px;
+    }
+
+    .scoreSection {
+        width: 235px;
+    }
+
+    #rock {
+        width: 90px;
+        height: 90px;
+    }
+
+    #paper {
+        width: 60px;
+        height: 92px;
+    }
+
+    #scissors {
+        width: 52px;
+        height: 92px;
+    }
+
+    .battleSection {
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+
+    .title {
+        font-size: 10px;
+        padding-top: 5px;
+    }
+
+    a#navAudio {
+        font-size: 6px;
+        padding: 15px 0px 15px 0px;
+    }
+
+    .navbar-left {
+        margin-top: -10px;
+    }
+
+    .yourScore,
+    .compScore,
+    .currentScore {
+        font-size: 8px;
+    }
+
+    .score {
+        font-size: 15px;
+    }
+
+    .scoreSection {
+        width: 160px;
+        margin-top: 100px;
+        margin-left: 5px;
+        margin-right: 15px;
+    }
+
+    .battleSection {
+        margin-top: 110px;
+        margin-right: 15px;
+    }
+
+    .battleHeader {
+        font-size: 10px;
+        line-height: 1.6;
+    }
+
+    #rock {
+        width: 50px;
+        height: 50px;
+    }
+
+    #paper {
+        width: 35px;
+        height: 51px;
+    }
+
+    #scissors {
+        width: 31px;
+        height: 51px;
+    }
+
+    .btn {
+        margin-top: 10px;
+    }
+
+    .r,
+    .p {
+        margin-right: -10px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    #rock {
+        width: 40px;
+        height: 40px;
+    }
+
+    #paper {
+        width: 25px;
+        height: 44px;
+    }
+
+    #scissors {
+        width: 21px;
+        height: 41px;
+    }
+
+    .battleSection {
+        margin-right: 0px;
+    }
 }

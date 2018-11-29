@@ -50,7 +50,7 @@ $(document).ready(function () {
             console.log(userGuess + ' ties ' + computerGuess);
             $('#computerGuess').text(computerGuess);
             $('#currentScore').text(currentScore = 'Draw');
-            $('#resultImg').append('<img id="rockTie" src="assets/images/choice-rock.png" width=236px, height=236px />');
+            $('#resultImg').append('<img id="rockTie" src="assets/images/R-Tie-R.png" width=700px, height=266px />');
         }
         if (computerGuess === 'scissors') {
             console.log(userGuess + ' wins over ' + computerGuess);
@@ -85,7 +85,7 @@ $(document).ready(function () {
             console.log(userGuess + ' ties ' + computerGuess);
             $('#computerGuess').text(computerGuess);
             $('#currentScore').text(currentScore = 'Draw');
-            $('#resultImg').append('<img id="paperTie" src="assets/images/choice-paper.png" width=180px, height=236px />');
+            $('#resultImg').append('<img id="paperTie" src="assets/images/P-Tie-P.png" width=700px, height=266px />');
 
         }
         if (computerGuess === 'rock') {
@@ -121,7 +121,7 @@ $(document).ready(function () {
             console.log(userGuess + ' ties ' + computerGuess);
             $('#computerGuess').text(computerGuess);
             $('#currentScore').text(currentScore = 'Draw');
-            $('#resultImg').append('<img id="scissorsTie" src="assets/images/choice-scissors.png" width=180px, height=236px />');
+            $('#resultImg').append('<img id="scissorsTie" src="assets/images/S-Tie-S.png" width=700px, height=266px />');
 
         }
         if (computerGuess === 'paper') {

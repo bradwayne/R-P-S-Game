@@ -372,7 +372,21 @@ b {
     #rockTie,
     #rockWin,
     #rockLose {
-        width: 300px;
+        width: 350px;
+        height: 133px;
+    }
+
+    #paperTie,
+    #paperWin,
+    #paperLose {
+        width: 350px;
+        height: 133px;
+    }
+
+    #scissorsTie,
+    #scissorsWin,
+    #scissorsLose {
+        width: 350px;
         height: 133px;
     }
 

@@ -131,7 +131,7 @@ $(document).ready(function () {
             $('#score').text(score)
             $('#computerGuess').text(computerGuess);
             $('#currentScore').text(currentScore = 'Winner');
-            $('#resultImg').append('<img id="rockWin" src="assets/images/S-Beat-P-victory.png"  width=700px, height=266px />');
+            $('#resultImg').append('<img id="scissorsWin" src="assets/images/S-Beat-P-victory.png"  width=700px, height=266px />');
         }
         if (computerGuess === 'rock') {
             console.log(userGuess + ' lose over ' + computerGuess);
@@ -140,7 +140,7 @@ $(document).ready(function () {
             $('#score').text(score);
             $('#computerGuess').text(computerGuess);
             $('#currentScore').text(currentScore = 'Loser');
-            $('#resultImg').append('<img id="rockLose" src="assets/images/R-Beat-S-blood.png" width=700px, height=266px />');
+            $('#resultImg').append('<img id="scissorsLose" src="assets/images/R-Beat-S-blood.png" width=700px, height=266px />');
         }
         attachSound.play();
         scissors()

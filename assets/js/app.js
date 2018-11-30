@@ -1,5 +1,5 @@
 var backgroundMusic = new Audio("assets/audio/background_enemy_03.mp3");
-var attachSound = new Audio("assets/audio/bomb-sound-effect.mp3");
+var attackSound = new Audio("assets/audio/bomb-sound-effect.mp3");
 
 function pauseAudio() {
     if (document.getElementById('navAudio').classList.contains('play')) {
@@ -71,7 +71,7 @@ $(document).ready(function () {
             $('#currentScore').text(currentScore = 'Loser');
             $('#resultImg').append('<img id="rockLose" src="assets/images/P-Beat-R-blood.png" width=700px, height=266px />');
         }
-        attachSound.play();
+        attackSound.play();
         rock()
     };
 
@@ -107,7 +107,7 @@ $(document).ready(function () {
             $('#currentScore').text(currentScore = 'Loser');
             $('#resultImg').append('<img id="paperLose" src="assets/images/S-Beat-P-blood.png" width=700px, height=266px />');
         }
-        attachSound.play();
+        attackSound.play();
         paper()
     };
 
@@ -142,7 +142,7 @@ $(document).ready(function () {
             $('#currentScore').text(currentScore = 'Loser');
             $('#resultImg').append('<img id="scissorsLose" src="assets/images/R-Beat-S-blood.png" width=700px, height=266px />');
         }
-        attachSound.play();
+        attackSound.play();
         scissors()
     };
 
